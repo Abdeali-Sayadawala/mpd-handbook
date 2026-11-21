@@ -34,3 +34,6 @@ mpd-backend · mpd-frontend · mpd-mobile · mpd-global · mpd-infra · mpd-hand
 
 ## Status
 Scaffold created 20-Nov-2026. Roadmap: First version at M4 (onboarding live), then updated every milestone.
+
+## Live site
+Published with GitHub Pages from the `main` branch: https://abdeali-sayadawala.github.io/mpd-handbook/ (the address changes when the repository moves to the owner's GitHub organisation; update it here then). This repository is **public on purpose**: it holds only the customer-facing guide. Never put internal specs, costs or business decisions in it. They belong in the private `mpd-handbook-developer`.
