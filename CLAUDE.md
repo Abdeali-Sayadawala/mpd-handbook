@@ -5,6 +5,7 @@ A public, friendly HTML guide for website users, NRI owners, partners and non-te
 ## Repo-specific rules
 - Plain language, no technical terms. Explain with screenshots and short steps.
 - Describe only features that are live. Mark "coming soon" clearly.
+- Pages: index, getting-started, document-vault, identity-verification, builders-and-societies, our-team (staff console), faq. Update them at the end of every milestone step.
 
 ## Rules that apply in every MPD repo
 - Brand: **My Property Doctors (MPD)**. Read `BRAND_NAME`, `BRAND_SHORT` and `BRAND_DOMAIN` from config. Never hard-code the name or domain.

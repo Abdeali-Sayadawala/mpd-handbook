@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For our team: My Property Doctors guide</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap"><b>My Property Doctors guide</b><a href="../index.html">Home</a><a href="getting-started.html">Getting started</a><a href="document-vault.html">Document vault</a><a href="identity-verification.html">Identity check</a><a href="builders-and-societies.html">Builders &amp; societies</a><a href="our-team.html">For our team</a><a href="faq.html">Questions</a></div></header>
+<main class="wrap">
+<h1>For our team and partners</h1>
+<p class="lede">How the team and partners use the staff console at <code>/admin</code>. Staff sign in on their own page, separate from customers.</p>
+
+<h2>Who can do what</h2>
+<table>
+<tr><th>Role</th><th>Sees</th><th>Can invite</th></tr>
+<tr><td><b>Super admin</b></td><td>Everything</td><td>Master franchises and operations staff</td></tr>
+<tr><td><b>Operations</b></td><td>Everything, for day-to-day work</td><td>Master franchises</td></tr>
+<tr><td><b>Master franchise</b></td><td>Their city, and everything under it</td><td>Franchises and service providers</td></tr>
+<tr><td><b>Franchise</b></td><td>Their area, and the providers and workers in it</td><td>Service providers</td></tr>
+<tr><td><b>Service provider</b></td><td>Their own team</td><td>Service workers</td></tr>
+<tr><td><b>Service worker</b></td><td>Only work assigned to them <span class="badge soon">coming soon</span></td><td>Nobody</td></tr>
+</table>
+<p>Everyone sees and manages only their own branch. Nobody can invite someone above their own level.</p>
+
+<h2>Areas</h2>
+<p>Areas are managed by <b>pincode</b>. A group of pincodes with a name is called a <b>territory</b> (for example "Alkapuri side": 390007, 390015). A franchise's pincodes must be inside its master franchise's, and a provider's inside its franchise's, so nobody can claim an area their parent does not hold.</p>
+<p><b>When can customers use an area?</b> When the pincode is switched on <b>and</b> at least one active provider with active staff covers it. Otherwise the customer sees "we are not serving this area yet".</p>
+
+<h2>Setting up the network <span class="badge live">Live</span></h2>
+<ol class="steps">
+<li><b>Organisations</b>: add a master franchise, then franchises and service providers under it. Give each a territory.</li>
+<li><b>Staff</b>: invite the person by email. They open the link, choose a password and are signed in. Invitations work once and expire in 7 days.</li>
+<li><b>Masters, Pincodes</b>: switch a pincode on when you are ready to open it.</li>
+</ol>
+
+<h2>Prices <span class="badge live">Live</span></h2>
+<ol class="steps">
+<li><b>Pricing, Rate types</b>: how a service is charged: a lump sum, per sq ft, per hour, or one you add (per day, per visit&hellip;).</li>
+<li><b>Pricing, Price lists</b>: create a draft (or copy the current list). Prices are changed in a draft, then <b>published from a date</b>. The previous list ends the day before. A published list cannot be edited, so what customers agreed to never changes.</li>
+<li><b>Pricing, Service prices</b>: for each service choose how it is charged, then set a default price, an optional minimum charge and a price for any pincode that differs. You can paste many lines like <code>390002, 15.50</code> at once. A line shows how many open pincodes have a price. A service with no price in an area is not offered there.</li>
+</ol>
+
+<h2>Reviewing customers <span class="badge live">Live</span></h2>
+<ul>
+<li><b>KYC review</b>: open the scan, check it against the number shown, then verify or reject with a reason the customer will read. Each time you open a scan it is recorded under your name.</li>
+<li><b>Customers</b>: find a customer and see their properties. Operations can set up a customer as a <b>project owner</b> (a builder or society).</li>
+<li><b>Owner registrations</b>: a project owner says who owns a unit and attaches proof. Open the proof, then <b>Approve</b> (the owner is emailed an invitation) or <b>Reject</b> with a reason. You can also send an invitation again, or <b>Revoke</b> an owner with a reason. Changing an existing owner is always reviewed.</li>
+</ul>
+
+<h2>Website and services <span class="badge live">Live</span></h2>
+<ul>
+<li><b>Service catalogue</b>: edit names, descriptions and order, and switch a service or category on or off. A switched-off service disappears from the website and the app within seconds, and cannot be bought. Existing jobs are not affected.</li>
+<li><b>Website content</b>: the homepage text, the team, FAQs and testimonials.</li>
+</ul>
+
+<h2>How requests will work <span class="badge soon">Coming soon</span></h2>
+<ol class="steps">
+<li>A customer buys a service. It becomes a request that every <b>eligible provider</b> can see: providers who work in that pincode and have chosen that service.</li>
+<li>The franchise, master franchise and our operations team can see it too, and can ask a provider to take it.</li>
+<li>The first provider to accept gets the job.</li>
+<li>The provider assigns one of their workers, who must have chosen that service, and the worker does the job.</li>
+</ol>
+<p>Providers will choose their services, and workers the ones they can do, in their own screens. Customer name, phone and address stay hidden until a provider accepts.</p>
+<footer>Last updated 21 Nov 2026.</footer>
+</main>
+</body>
+</html>

@@ -7,13 +7,19 @@ A public, friendly HTML guide for website users, NRI owners, partners and non-te
 ## Stack
 Static HTML + CSS + a little JS (no build step)
 
-## Structure (planned)
+## Structure
 ```
-index.html          overview + who does what (interactive role map)
-pages/  onboarding.html  plans-and-payments.html  jobs-and-reports.html  document-vault.html
-        for-franchises.html  for-providers.html  for-field-workers.html  faq.html
-assets/screens/     screenshots added as features ship
+index.html                      overview, what you can do, who does what, how a request reaches a worker
+pages/getting-started.html      sign up, add a property
+pages/document-vault.html       folders, uploads, versions, share links, activity
+pages/identity-verification.html  KYC for customers
+pages/builders-and-societies.html project owners, units, registering owners
+pages/our-team.html             staff console guide (network, areas, prices, reviews)
+pages/faq.html                  common questions
+assets/style.css                shared styles
+assets/screens/                 screenshots, added as features ship
 ```
+Only live features are described. Anything not built is marked "Coming soon". Update it at the end of every milestone step.
 
 ## Getting started
 ```bash
