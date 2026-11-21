@@ -13,7 +13,7 @@ A public, friendly HTML guide for website users, NRI owners, partners and non-te
 - Branches: `develop` → staging (auto deploy), `main` → production (manual deploy). Feature branches + merge requests.
 - No secrets in git. Use `.env.example` with placeholders only. No real customer data in code, fixtures, logs or docs.
 - No direct backend calls (static site). Describe the API only as documented in `mpd-backend/openapi.json`.
-- Full spec: `../docs/architecture/README.md`. Workspace notes: `../CLAUDE.md`.
+- Full spec: `../mpd-handbook-developer/docs/architecture/README.md`. Workspace notes: `../CLAUDE.md`.
 
 ## Commands
 ```bash
